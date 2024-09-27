@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: aliceblue;
+
+}
+
+body{
+    background-color: rgba(0, 0, 51, 0.765);
+    display: flex;
+}
+::selection{
+    color: rgb(136, 15, 15);
+    background-color: rgba(0, 0, 0, 0.189);
+}
+
+.menu{
+    height: 100vh;
+    width: 260px;
+    background-color: rgba(0, 0, 0, 0.089);
+    position: relative;
+    padding: 0 30px;
+    width: 55px;
+    overflow: hidden;
+    transition: .5s;
+    position: sticky;
+    left: 0;
+    top: 0;
+}
+.menu:hover{
+    width: 260px;
+}
+ul{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  gap: 40px;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    transition: .5s;
+
+}
+ul li a:hover {
+background-color: rgba(250, 235, 215, 0.094);
+}
+ul li a:active{
+    background-color: rgba(250, 235, 215, 0.094);
+}
+.log-out{
+    position: absolute;
+    bottom: 0;
+    width: 190px;
+  
+}
+.log-out a{
+    background-color: red;
+    opacity: .9;
+}
+ul li a i{
+    font-size: 25px;
+}
+ul li a p{
+    text-transform:capitalize;
+    font-size: 20px;
+    font-weight: 500;
+}
+.image img{
+    width: 50px;
+    height: 50px;
+    border-radius:50% ;
+    border: 2px solid white;
+    margin-left: -15px;
+    
+}
+.image{
+    flex-shrink: 0;
+}
+.container{
+    width: 100%;
+    margin: 10px;
+    
+    
+}
+.bar{
+    display: flex;
+   padding: 10px;
+   margin: 5px 0;
+    justify-content: space-between;
+    text-align: center;
+    background-color: rgb(226 202 202 / 16%);
+    border-radius: 5px;
+    font-size: 20px;
+    text-transform: capitalize;
+    
+}
+.boxs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    margin-top: 20px;
+  
+}
+.boxs .box-data{
+    height: 250px;
+    width:250px;
+    background-color: rgba(0, 0, 0, 0.089);
+    margin-bottom: 20px;
+    margin-right: 15px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    box-shadow: 1 5 1 1 black;
+    transition: .5s;
+    flex-grow: 1;
+
+
+}
+.boxs .box-data:hover,td:hover{
+    background-color: rgba(250, 235, 215, 0.094);
+}
+.boxs .box-data .data{
+    font-size: 30px;
+    font-weight: 800;
+
+}
+.boxs .box-data .data p{
+    margin-bottom:10px ;
+}
+.boxs .box-data  i{
+    font-size: 30px;
+    font-weight: 800;
+
+}
+table{
+    width: 100%;
+    margin-top: 20px;
+    border-spacing: 10px;
+}
+thead{
+    margin-bottom: 10px;
+}
+table th{
+    background-color: rgb(41 36 52 / 68%);
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+   
+}
+table td{
+    background-color: rgba(0, 0, 0, 0.089);
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
